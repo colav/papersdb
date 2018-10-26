@@ -1,5 +1,5 @@
 # PapersDB
-Import http://oadoi,org full data base  (~80GB for the October 2018 snapshot) into MongoDB
+Import http://oadoi,org full data base  (~80GB for the October 2018 snapshot) into MongoDB, and creates [some indices](./indexes.mdb) for fast queries 
 
 WARNING: Only the [serial implementation](./loadmongodb.sh) have been fully tested
 
@@ -24,5 +24,3 @@ $ mongo
 > use gfif
 > db.papers.remove()
 ```
-     
-     
